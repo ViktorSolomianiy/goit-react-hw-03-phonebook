@@ -1,0 +1,19 @@
+.filter__container {
+  margin-top: 10px;
+}
+
+.filter__text {
+  margin-bottom: 10px;
+}
+
+.filter__input {
+  width: 250px;
+  height: 20px;
+  transition: border 2500ms;
+}
+
+.filter__input:focus,
+.filter__input:hover {
+  outline: none;
+  border: 2px solid rgb(0, 183, 255);
+}

@@ -1,0 +1,39 @@
+.form__contaiter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.form__label--name {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.form__input--name {
+  width: 250px;
+  height: 20px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.form__input--name:focus,
+.form__input--name:hover {
+  outline: none;
+  border: 2px solid rgb(0, 183, 255);
+}
+
+.form__btn {
+  padding: 5px;
+  width: 130px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 5px;
+  box-shadow: 5px 5px 4px -3px rgba(0, 0, 0, 0.5);
+  transition: transform 250ms;
+}
+
+.form__btn:hover {
+  transform: scale(1.04);
+}

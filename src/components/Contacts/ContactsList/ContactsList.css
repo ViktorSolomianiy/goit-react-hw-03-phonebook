@@ -1,0 +1,22 @@
+.contacts__item {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.contacts__btn {
+  padding: 5px;
+  width: 80px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 5px;
+  box-shadow: 5px 5px 4px -3px rgba(0, 0, 0, 0.5);
+  transition: transform 250ms;
+}
+
+.contacts__btn:hover {
+  transform: scale(1.04);
+}
